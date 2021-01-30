@@ -1,2 +1,2 @@
 # todountdown
-Web-based to-do application with countdown display
+A web-based to-do/project listing application with a countdown timer display.
