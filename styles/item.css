@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Handlee&family=Lato&display=swap');
+
+div.item {
+	display: flex;
+	width: 30%;
+
+	border-style: solid;
+	border-width: 2px;
+	border-color: black;
+	border-radius: 4px;
+
+	padding: 4px 8px 4px 4px;
+	justify-content: space-between;
+	align-items: baseline;
+}
+
+div.item span.name {
+	margin-top: 4px;
+
+	font-family: 'Handlee', cursive;
+	font-size: 24px;
+	color: black;
+}
+
+div.item span.countdown {
+	font-family: 'Lato', sans-serif;
+}
+
+div.item button.more {
+	align-self: center;
+
+	border-style: solid;
+	border-color: black;
+	border-width: 2px;
+	border-radius: 4px;
+
+	filter: drop-shadow(2px 2px 1px rgba(0,0,0,.6));
+
+	outline: none;
+	background-color: blue;
+
+	font-family: 'Lato', sans-serif;
+	font-weight: bolder;
+}
+
+div.item button.more:active {
+	margin-top: 2px;
+	filter: drop-shadow(2px 0px 1px rgba(0,0,0,.6));
+}
