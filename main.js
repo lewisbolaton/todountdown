@@ -1,5 +1,5 @@
 var scheduleStringA = '30 Jan 2021 12:00';
-var scheduleStringB = '1 Feb 2021 11:45';
+var scheduleStringB = '1 Feb 2021 23:45';
 
 const countdown = (scheduleString, documentId) => {
 	const timezoneOffset = 8 * 60 * 60 * 10000;
